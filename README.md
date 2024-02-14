@@ -65,13 +65,18 @@ where `alpha > 0` is the shape, `s > 0` the scale, and `m` the location paramete
 ## Usage
 
 ```javascript
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-frechet-quantile/tags). For example,
+
+```javascript
 import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@v0.2.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@esm/index.mjs';
 ```
 
 #### quantile( p, alpha, s, m )
@@ -166,7 +171,7 @@ y = myQuantile( 0.2 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@v0.2.0-esm/index.mjs';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@esm/index.mjs';
 
 var alpha;
 var m;
