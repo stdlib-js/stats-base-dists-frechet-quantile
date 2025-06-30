@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-10)
+## Unreleased (2025-06-30)
+
+<section class="features">
+
+### Features
+
+-   [`ffd5b49`](https://github.com/stdlib-js/stdlib/commit/ffd5b49c68bf5f8b5515e654d55d1411fca07ea8) - add C implementation for `stats/base/dists/frechet/quantile`
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`ffd5b49`](https://github.com/stdlib-js/stdlib/commit/ffd5b49c68bf5f8b5515e654d55d1411fca07ea8) - **feat:** add C implementation for `stats/base/dists/frechet/quantile` _(by Philipp Burckhardt)_
 -   [`fa15161`](https://github.com/stdlib-js/stdlib/commit/fa15161761664bbdd2123292d3f1d7cf2d0f0a6d) - **bench:** refactor random number generation in `stats/base/dists/frechet` [(#4922)](https://github.com/stdlib-js/stdlib/pull/4922) _(by Karan Anand, stdlib-bot)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
