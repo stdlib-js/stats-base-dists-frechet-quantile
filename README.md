@@ -65,13 +65,13 @@ where `alpha > 0` is the shape, `s > 0` the scale, and `m` the location paramete
 ## Usage
 
 ```javascript
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@deno/mod.js';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@v0.3.1-deno/mod.js';
 ```
 
 #### quantile( p, alpha, s, m )
@@ -161,7 +161,7 @@ y = myQuantile( 0.2 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@deno/mod.js';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-quantile@v0.3.1-deno/mod.js';
 
 var alpha;
 var m;
