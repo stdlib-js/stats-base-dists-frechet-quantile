@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-14)
+## Unreleased (2026-09-27)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`864fee6`](https://github.com/stdlib-js/stdlib/commit/864fee653901caaf3cee6fc46e002fd0386306ae) - **test:** migrate `stats/base/dists/frechet/quantile` to ULP-based assertions [(#15574)](https://github.com/stdlib-js/stdlib/pull/15574) _(by Athan Reines)_
 -   [`6e22696`](https://github.com/stdlib-js/stdlib/commit/6e22696e475dacbea43f660117c957b6af1f3a6f) - **chore:** clean-up [(#14338)](https://github.com/stdlib-js/stdlib/pull/14338) _(by Philipp Burckhardt)_
 -   [`2ab835f`](https://github.com/stdlib-js/stdlib/commit/2ab835f6d0b8721ef7e604d7fdced904bed91443) - **docs:** refactor to use `logEachMap` in examples [(#11485)](https://github.com/stdlib-js/stdlib/pull/11485) _(by Lokesh Ranjan)_
 -   [`18db4f6`](https://github.com/stdlib-js/stdlib/commit/18db4f6ca8230913325b71f53a49ad0aac41b10b) - **bench:** update random value generation for `stats/base/dists/frechet` [(#10335)](https://github.com/stdlib-js/stdlib/pull/10335) _(by Lokesh Ranjan)_
@@ -27,8 +28,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Lokesh Ranjan
 -   Philipp Burckhardt
 -   Shubham
